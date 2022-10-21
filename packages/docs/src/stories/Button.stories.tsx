@@ -3,10 +3,10 @@ import { Button, ButtonRootProps } from "@design-system-ui/react";
 import { ArrowRight } from "phosphor-react";
 
 export default {
-  title: "Components/Button",
+  title: "Form/Button",
   component: Button.Root,
   args: {
-    children: "Enviar",
+    children: "Send",
     variants: "primary",
   },
   argTypes: {
@@ -45,7 +45,7 @@ export const PrimaryWithIcon: StoryObj<ButtonRootProps> = {
   args: {
     children: (
       <>
-        Próximo
+        Next
         <ArrowRight weight="bold" />
       </>
     ),
@@ -64,7 +64,7 @@ export const SecondaryWithIcon: StoryObj<ButtonRootProps> = {
     variants: "secondary",
     children: (
       <>
-        Próximo
+        Next
         <ArrowRight weight="bold" />
       </>
     ),

@@ -17,6 +17,18 @@ module.exports = {
 
       height: {
         full: '100%'
+      },
+
+      minHeight: {
+        80: "20rem"
+      },
+
+      margin: {
+        0: '0px'
+      },
+
+      colors: {
+        transparent: 'transparent'
       }
     },
 

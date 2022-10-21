@@ -1,0 +1,2 @@
+import{C as r,T as s}from"./index.5836827f.js";import{b as o,j as t}from"./jsx-runtime.28066b95.js";import"./index.484f2da2.js";import"./iframe.6b67eac0.js";const n={title:"Form/Checkbox",component:r,args:{},argTypes:{},decorators:[e=>o("div",{className:"flex items-center gap-2",children:[e(),t(s,{size:"sm",children:"Remember me for 30 days"})]})]},p={},x=["Default"];export{p as Default,x as __namedExportsOrder,n as default};
+//# sourceMappingURL=Checkbox.stories.9782cd01.js.map

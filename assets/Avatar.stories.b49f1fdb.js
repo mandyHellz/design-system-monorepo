@@ -1,0 +1,2 @@
+import{A as t}from"./index.5836827f.js";import"./jsx-runtime.28066b95.js";import"./iframe.6b67eac0.js";import"./index.484f2da2.js";const s={title:"Data display/Avatar",component:t,args:{isLoggedOut:!1,src:"https://avatars.githubusercontent.com/u/77729852?v=4",alt:"MandyHellz"},argTypes:{src:{control:{type:"text"}}}},g={},n={args:{isLoggedOut:!0}},d=["LoggedIn","LoggedOut"];export{g as LoggedIn,n as LoggedOut,d as __namedExportsOrder,s as default};
+//# sourceMappingURL=Avatar.stories.b49f1fdb.js.map

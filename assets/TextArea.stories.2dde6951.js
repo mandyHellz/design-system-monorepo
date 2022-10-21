@@ -1,0 +1,2 @@
+import{b as s,B as r,T as a}from"./index.5836827f.js";import{b as t,j as o}from"./jsx-runtime.28066b95.js";import"./index.484f2da2.js";import"./iframe.6b67eac0.js";const c={title:"Form/Text Area",component:s,args:{},decorators:[e=>t(r,{className:"flex flex-col gap-2",children:[o(a,{size:"sm",children:"Observations"}),e()]})]},m={args:{placeholder:"Add any observations..."}},x={args:{disabled:!0}},p=["Default","Disabled"];export{m as Default,x as Disabled,p as __namedExportsOrder,c as default};
+//# sourceMappingURL=TextArea.stories.2dde6951.js.map

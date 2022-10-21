@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 
-const { color, fontFamily, fontSize, fontWeight, space } = require('@design-system-ui/tokens')
+const { color, fontFamily, fontSize, fontWeight, space } = require('@mandyhellz-design-system/tokens')
 
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],

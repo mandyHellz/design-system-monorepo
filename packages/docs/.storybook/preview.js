@@ -1,4 +1,4 @@
-import "@design-system-ui/react/dist/index.css"
+import "@mandyhellz-design-system/react/dist/index.css"
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },

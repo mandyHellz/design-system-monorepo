@@ -1,4 +1,4 @@
-import { Checkbox, CheckboxProps, Text } from "@design-system-ui/react";
+import { Checkbox, CheckboxProps, Text } from "@mandyhellz-design-system/react";
 import { Meta, StoryObj } from "@storybook/react";
 
 export default {

@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { TextInput, TextInputRootProps } from "@design-system-ui/react";
+import { TextInput, TextInputRootProps } from "@mandyhellz-design-system/react";
 import { Envelope } from "phosphor-react";
 
 export default {

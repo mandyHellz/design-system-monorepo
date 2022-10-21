@@ -1,4 +1,4 @@
-import { color } from "@design-system-ui/tokens";
+import { color } from "@mandyhellz-design-system/tokens";
 import { getContrast } from "polished";
 
 export const ColorGrid = () => {

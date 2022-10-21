@@ -1,4 +1,4 @@
 {
-  "extends": "@design-system-ui/ts-config/base.json",
+  "extends": "@mandyhellz-design-system/ts-config/base.json",
   "include": ["src"]
 }

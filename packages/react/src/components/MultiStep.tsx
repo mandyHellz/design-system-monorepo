@@ -8,7 +8,7 @@ export interface MultiStepProps {
 
 export interface MultiStepStepsProps {
   children: ReactNode;
-  size: string;
+  size: number;
 }
 
 export interface MultiStepStepProps {
@@ -16,31 +16,35 @@ export interface MultiStepStepProps {
 }
 
 export const MultiStep = ({ size, currentStep = 1 }: MultiStepProps) => {
-  const sizeInString = String(size);
-
   return (
     <div className="flex flex-col gap-2">
       <Text size="xs" className="text-gray-200">
         Step {currentStep} of {size}
       </Text>
 
-      <MultiStepSteps size={sizeInString}>
-        {Array.from({ length: size }, (_, i) => i + 1).map((step) => {
-          return <MultiStepStep key={step} active={currentStep >= step} />;
-        })}
-      </MultiStepSteps>
+      {size > 0 && (
+        <MultiStepSteps size={size}>
+          {Array.from({ length: size }, (_, i) => i + 1).map((step) => {
+            return <MultiStepStep key={step} active={currentStep >= step} />;
+          })}
+        </MultiStepSteps>
+      )}
     </div>
   );
 };
 
 const MultiStepSteps = ({ children, size }: MultiStepStepsProps) => {
-  return <div className={`grid gap-2 mt-1 grid-cols-${size}`}>{children}</div>;
+  return (
+    <div className={`w-full gap-2 mt-1 grid grid-cols-${size}`}>{children}</div>
+  );
 };
 
 const MultiStepStep = ({ active }: MultiStepStepProps) => {
   return (
     <div
-      className={`h-1 rounded ${active ? "bg-gray-100" : "bg-gray-600"}`}
+      className={`h-1 rounded max-w-20 ${
+        active ? "bg-gray-100" : "bg-gray-600"
+      }`}
     ></div>
   );
 };

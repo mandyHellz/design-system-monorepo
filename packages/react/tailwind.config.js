@@ -11,6 +11,10 @@ module.exports = {
         30: space[30]
       },
 
+      maxWidth: {
+        20: "5rem"
+      },
+
       width: {
         full: '100%'
       },

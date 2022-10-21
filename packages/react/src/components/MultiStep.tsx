@@ -8,7 +8,7 @@ export interface MultiStepProps {
 
 export interface MultiStepStepsProps {
   children: ReactNode;
-  size: number;
+  size: string;
 }
 
 export interface MultiStepStepProps {
@@ -22,7 +22,7 @@ export const MultiStep = ({ size, currentStep = 1 }: MultiStepProps) => {
         Step {currentStep} of {size}
       </Text>
 
-      <MultiStepSteps size={size}>
+      <MultiStepSteps size={size.toString()}>
         {Array.from({ length: size }, (_, i) => i + 1).map((step) => {
           return <MultiStepStep key={step} active={currentStep >= step} />;
         })}
@@ -33,7 +33,7 @@ export const MultiStep = ({ size, currentStep = 1 }: MultiStepProps) => {
 
 const MultiStepSteps = ({ children, size }: MultiStepStepsProps) => {
   return (
-    <div className={`grid gap-2 mt-1 grid-cols-${String(size)}`}>
+    <div className={`grid gap-2 mt-1 grid-cols-${size.toString()}`}>
       {children}
     </div>
   );

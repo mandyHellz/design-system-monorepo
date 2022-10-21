@@ -1,6 +1,6 @@
 {
-  "name": "@design-system-ui/react",
-  "version": "1.0.0",
+  "name": "@mandyhellz-design-system/react",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,16 +13,6 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "@design-system-ui/eslint-config": "*",
-    "@design-system-ui/tokens": "*",
-    "@design-system-ui/ts-config": "*",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "react": "^18.2.0",
-    "tsup": "^6.3.0",
-    "typescript": "^4.8.4"
-  },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.0.1",
     "@radix-ui/react-slot": "^1.0.1",
@@ -31,5 +21,15 @@
     "phosphor-react": "^1.4.1",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.0"
+  },
+  "devDependencies": {
+    "@mandyhellz-design-system/eslint-config": "*",
+    "@mandyhellz-design-system/tokens": "*",
+    "@mandyhellz-design-system/ts-config": "*",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "tsup": "^6.3.0",
+    "typescript": "^4.8.4"
   }
 }

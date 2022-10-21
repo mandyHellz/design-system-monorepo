@@ -1,6 +1,6 @@
 {
-  "name": "@design-system-ui/tokens",
-  "version": "1.0.0",
+  "name": "@mandyhellz-design-system/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@design-system-ui/ts-config": "*",
-    "@design-system-ui/eslint-config": "*",
+    "@mandyhellz-design-system/ts-config": "*",
+    "@mandyhellz-design-system/eslint-config": "*",
     "tsup": "^6.3.0",
     "typescript": "^4.8.4"
   }
